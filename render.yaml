@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: barflydate-v5
-    env: node
-    plan: free
-    buildCommand: npm install && npm run render-build
-    startCommand: npm start
-    autoDeploy: true
