@@ -515,7 +515,7 @@ function SplashScreen() {
       .catch(() => null)
       .finally(() => {
         const elapsed = Date.now() - started;
-        const wait = Math.max(0, 1800 - elapsed);
+        const wait = Math.max(0, 5000 - elapsed);
         setTimeout(() => {
           if (!done) setReady(true);
         }, wait);
