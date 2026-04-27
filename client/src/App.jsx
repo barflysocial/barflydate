@@ -652,7 +652,7 @@ function BusinessDemo() {
       <div className="contactGrid">
         <div><span>Contact</span><b>Desmon LeJeune</b></div>
         <div><span>Company</span><b>Barfly Entertainment</b></div>
-        <div><span>Website</span><b>barfly.social</b></div>
+        <div><span>Phone</span><b>225-333-6100</b></div>
         <div><span>Games</span><b>games.barfly.social</b></div>
       </div>
       <p className="microcopy">Add your preferred public email and phone number here before using this as a sales page.</p>
