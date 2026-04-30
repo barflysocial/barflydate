@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: barflydate
+    env: node
+    plan: free
+    buildCommand: npm install && npm run render-build
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: HOST_PIN
+        value: "2468"
+      - key: DATABASE_URL
+        sync: false
