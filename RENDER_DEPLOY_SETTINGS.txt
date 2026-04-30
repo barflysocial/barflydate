@@ -1,0 +1,18 @@
+Render Deploy Settings
+
+Root Directory:
+Leave this BLANK.
+
+Build Command:
+npm install && npm run render-build
+
+Start Command:
+npm start
+
+The ZIP root contains:
+package.json
+render.yaml
+client/package.json
+server/index.js
+
+Do not set Root Directory to client or src/client.
