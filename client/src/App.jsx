@@ -2942,7 +2942,7 @@ function SocialWall() {
   const frames = [
     {
       title: "Barfly Social Wall",
-      url: "https://games.barfly.social/BARFLYSOCIAL",
+      url: "https://app.crowdpurr.com/viewer/JXjxt5dKFnorpfdc4",
       note: "Social wall display"
     },
     {
