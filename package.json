@@ -1,0 +1,14 @@
+{
+  "name": "barflydate-v12",
+  "version": "12.0.0",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "render-build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
