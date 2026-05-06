@@ -3887,7 +3887,7 @@ function BusinessDemo() {
       <div className="comparisonTable" role="table" aria-label="Barfly Social comparison chart">
         <div className="comparisonHeader comparisonCell featureCol" role="columnheader">Feature</div>
         <div className="comparisonHeader comparisonCell barflyCol" role="columnheader">Barfly Social</div>
-        <div className="comparisonHeader comparisonCell traditionalCol" role="columnheader">Traditional Host</div>
+        <div className="comparisonHeader comparisonCell traditionalCol" role="columnheader">Others</div>
 
         {comparisonRows.map(feature => <React.Fragment key={feature}>
           <div className="comparisonCell comparisonFeature" role="rowheader">{feature}</div>
